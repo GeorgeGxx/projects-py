@@ -1,4 +1,4 @@
-#Comentario
+#Funcion holamundo con Docstring
 
 import sys
 
@@ -10,5 +10,7 @@ def holamundo():
 if __name__ == "__main__":
     holamundo()
 
+nombre = holamundo.__name__
 documentacion = holamundo.__doc__
+print(nombre, " : ")
 print(documentacion)
